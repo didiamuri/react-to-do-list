@@ -34,6 +34,9 @@ body {
 .spinner {
     animation: spinner 1.5s linear infinite;
 }
+.completed {
+    text-decoration: line-through;
+}
 
 @keyframes spinner {
     to {transform: rotate(360deg);}

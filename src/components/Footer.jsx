@@ -2,14 +2,14 @@ import React from 'react';
 import { FaListAlt, FaCheckSquare, FaPlusSquare, FaTrash } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom'
 
-const Footer = () => (
+const Footer = ({onDeleteCompleted}) => (
     <footer className="d-flex justify-content-between bg-secondary p-3" id="mainFooter">
         <div className="btn-group">
-            <NavLink to="/" className="btn btn-outline-dart bg-light"><FaListAlt /></NavLink>
+            <NavLink to="/" className="btn btn-outline-dart bg-light" exact={true}><FaListAlt /></NavLink>
             <NavLink to="/completed" className="btn btn-outline-dart bg-light"><FaCheckSquare /></NavLink>
-            <NavLink to="/add-task" className="btn btn-outline-dart bg-light"><FaPlusSquare /></NavLink>
+            <NavLink to="/add-task" className="btn btn-outline-dart bg-light" exact={true}><FaPlusSquare /></NavLink>
         </div>
-        <button className="btn btn-outline-dart bg-light"><FaTrash /></button>
+        <button className="btn btn-outline-dart bg-light" onClick={onDeleteCompleted}><FaTrash /></button>
     </footer>
 )
 
