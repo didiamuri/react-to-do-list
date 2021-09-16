@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Alt text](https://github.com/didiamuri/react-to-do-list/blob/master/Screen%20Shot%202021-08-20%20at%2011.02.17%20AM.png) 
+![Alt text](https://github.com/didiamuri/react-to-do-list/blob/master/Screen%20Shot%202021-08-20%20at%2012.44.15%20PM.png) 
 
 ## Available Scripts
 
